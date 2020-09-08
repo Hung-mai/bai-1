@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="app">
+        <button v-on:click="add(1)">Add a year</button>
+        <button v-on:click="sub(1)">Sub a year</button>
+        <button v-on:dblclick="add(10)">Add 10 year</button>
+        <button v-on:dblclick="sub(10)">Sub 10 year</button>
+
+        <p>I am {{ age }} years old</p>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="bai1.js"></script>
+</body>
+
+</html>
